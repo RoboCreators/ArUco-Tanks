@@ -31,7 +31,7 @@ Ein Laptop übernimmt die Bildverarbeitung sowie die Spiellogik und kommuniziert
 
 Das Projekt wurde im Rahmen des Moduls  
 **„Ausgewählte Themen der Automatisierungstechnik“**  
-an der **HTWK Leipzig** entwickelt.
+an der **HTWK Leipzig** im Jahr 2025/26 entwickelt.
 
 ## Lizenz
 
