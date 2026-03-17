@@ -17,7 +17,7 @@ Die Treffererkennung erfolgt softwareseitig über eine externe Kamera, Computer 
 - [Zielsetzung](#zielsetzung)
 - [Systemübersicht](#systemübersicht)
 - [Hardwareübersicht](#hardwareübersicht)
-- [Software--repository-struktur](#software--repository-struktur)
+- [Software-& Repository-Struktur](#software--repository-struktur)
 - [Getting Started](#getting-started)
 - [Projektkontext](#projektkontext)
 - [Nützliche Ressourcen](#nützliche-ressourcen)
@@ -56,13 +56,15 @@ Das Spielsystem basiert auf einer **markerbasierten visuellen Objekterkennung**.
 ### Fahrzeuge
 
 - ESP32 Dev Board  
-- LM2596 Step-Down Converter  
+- LM2596 Step-Down Converter
+- 2× DC Getriebemotoren 
+- 28BYJ-48 Schrittmotor  
 - WS-25514 Motorcontroller  
 - ULN2003 Treibermodul  
 - 7.4 V Li-Ion Akku  
 - Hauptschalter (DPDT)
-- 2× DC Getriebemotoren 
-- 28BYJ-48 Schrittmotor
+- Reset-Button
+
 
 ### Externe Komponenten
 
