@@ -5,10 +5,9 @@ Ein kamerabasiertes Laser-Tag-Spielsystem mit ferngesteuerten ESP32-Fahrzeugen u
 Das Projekt wurde im Rahmen eines Studienprojekts an der **HTWK Leipzig** entwickelt.  
 Die Treffererkennung erfolgt softwareseitig über eine externe Kamera, Computer Vision und eine zentrale Spiellogik auf dem Laptop.
 
-# ArUco Tanks
 
 <p align="center">
-  <img src="docs/images/ArUco-Tank.jpeg" width="700">
+  <img src="docs/images/ArUco-Tank.jpeg" width="600">
 </p>
 
 ---
