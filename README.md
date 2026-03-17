@@ -84,6 +84,15 @@ Dieses Repository enthält die zentralen Software- und CAD-Dateien des Projekts.
 - Gehäuse-, Turm- und Halterungsstrukturen
 - Grundlage für mechanischen Aufbau und Anpassungen
 
+## Benötigte Verbindungselemente
+
+Für den Aufbau werden zusätzlich folgende Schrauben, Muttern und Gewindeeinsätze benötigt:
+
+- **M2:** 5× M2×6 mm, 2× M2×13 mm, 10× Muttern, 1× Heatset-Insert
+- **M2.5:** 10× M2.5×10 mm, 10× Muttern
+- **M3:** 18× M3×6 mm, 2× M3×8 mm, 1× M3×10 mm, 10× Muttern, 7× Heatset-Inserts
+- **M4:** 2× M4×8 mm, 2× Heatset-Inserts
+
 ### Arduino-Code
 
 `Arduino_Steuerungscode.ino`
