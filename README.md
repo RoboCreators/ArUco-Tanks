@@ -83,7 +83,7 @@ Das Spielsystem basiert auf einer **markerbasierten visuellen Objekterkennung**.
 Für den Aufbau werden zusätzlich folgende Schrauben, Muttern und Gewindeeinsätze benötigt:
 
 - **M2:** 5× M2×6 mm, 2× M2×13 mm, 6× Muttern, 1× Heatset-Insert
-- **M2.5:** 10× M2.5×10 mm, 10× Muttern
+- **M2.5:** 10× M2,5×10 mm, 10× Muttern
 - **M3:** 18× M3×6 mm, 2× M3×8 mm, 1× M3×10 mm, 10× Muttern, 7× Heatset-Inserts
 - **M4:** 2× M4×8 mm, 2× Heatset-Inserts
   
@@ -163,7 +163,7 @@ an der **HTWK Leipzig**.
 
 Im Fokus standen insbesondere die Verknüpfung von:
 
-- embedded Steuerung
+- integrierte Steuerung
 - drahtloser Kommunikation
 - Computer Vision
 - spielbezogener Systemintegration
