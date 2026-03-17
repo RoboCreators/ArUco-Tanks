@@ -55,11 +55,14 @@ Das Spielsystem basiert auf einer **markerbasierten visuellen Objekterkennung**.
 
 ### Fahrzeuge
 
-- ESP32 als Hauptcontroller
-- Antriebssystem für die Fahrzeugbewegung
-- Turmmechanik für die Zielausrichtung
-- Spannungsversorgung über Akku
-- Chassis und Halterungen aus CAD-konstruierten Bauteilen
+- ESP32 Dev Board  
+- LM2596 Step-Down Converter  
+- WS-25514 Motorcontroller  
+- ULN2003 Treibermodul  
+- 7.4 V Li-Ion Akku  
+- Hauptschalter (DPDT)
+- 2× DC Getriebemotoren 
+- 28BYJ-48 Schrittmotor
 
 ### Externe Komponenten
 
@@ -73,6 +76,15 @@ Das Spielsystem basiert auf einer **markerbasierten visuellen Objekterkennung**.
 - Kamerakalibrierung zur präziseren Positionsbestimmung
 - Berechnung von Position, Orientierung und Schussrichtung im Kamerabild
 
+## Benötigte Verbindungselemente
+
+Für den Aufbau werden zusätzlich folgende Schrauben, Muttern und Gewindeeinsätze benötigt:
+
+- **M2:** 5× M2×6 mm, 2× M2×13 mm, 6× Muttern, 1× Heatset-Insert
+- **M2.5:** 10× M2.5×10 mm, 10× Muttern
+- **M3:** 18× M3×6 mm, 2× M3×8 mm, 1× M3×10 mm, 10× Muttern, 7× Heatset-Inserts
+- **M4:** 2× M4×8 mm, 2× Heatset-Inserts
+  
 ---
 
 ## Software & Repository-Struktur
@@ -86,15 +98,6 @@ Dieses Repository enthält die zentralen Software- und CAD-Dateien des Projekts.
 - Konstruktionsdaten der Fahrzeugkomponenten
 - Gehäuse-, Turm- und Halterungsstrukturen
 - Grundlage für mechanischen Aufbau und Anpassungen
-
-## Benötigte Verbindungselemente
-
-Für den Aufbau werden zusätzlich folgende Schrauben, Muttern und Gewindeeinsätze benötigt:
-
-- **M2:** 5× M2×6 mm, 2× M2×13 mm, 6× Muttern, 1× Heatset-Insert
-- **M2.5:** 10× M2.5×10 mm, 10× Muttern
-- **M3:** 18× M3×6 mm, 2× M3×8 mm, 1× M3×10 mm, 10× Muttern, 7× Heatset-Inserts
-- **M4:** 2× M4×8 mm, 2× Heatset-Inserts
 
 ### Arduino-Code
 
